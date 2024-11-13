@@ -8,15 +8,14 @@
 
 #include <layouts/foostan/corne/5column.dtsi>
 
-&layout_5_col {
-    transform = <&default_transform>;
+&foostan_corne_5col_layout {
+    transform = <&five_column_transform>;
 };
 
 / {
     chosen {
-        zephyr,display = &oled;
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &layout_5_col;
+        zmk,physical-layout = &foostan_corne_5col_layout;
     };
 
     default_transform: keymap_transform_0 {
