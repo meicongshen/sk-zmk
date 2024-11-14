@@ -38,7 +38,7 @@
 
         lower_layer {
             bindings = <
- &out OUT_BLE  &bt BT_CLR  &kp E  &sys_reset  &bootloader      &bootloader    &sys_reset  &kp I      &kp O    &mt BACKSPACE P
+ &out OUT_BLE  &bt BT_CLR  &studio_unlock  &sys_reset  &bootloader      &bootloader    &sys_reset  &studio_unlock      &kp O    &mt BACKSPACE P
  &kp A  &kp S  &kp D  &kp F  &kp G      &kp H    &kp J  &kp K      &kp L    &kp SEMI
  &kp Z  &kp X  &kp C  &kp V  &kp B      &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH
                     &kp L  &kp L  &kp L    &kp L  &kp L  &kp L
