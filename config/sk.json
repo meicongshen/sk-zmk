@@ -38,39 +38,39 @@
           "y": 0.110
         },
         {
-          "label": "T",
-          "row": 0,
-          "col": 5,
-          "x": 5,
-          "y": 0.235
-        },
-        {
           "label": "Y",
           "row": 0,
-          "col": 7,
+          "col": 5,
           "x": 9,
           "y": 0.235
         },
         {
           "label": "U",
           "row": 0,
-          "col": 8,
+          "col": 6,
           "x": 10,
           "y": 0.110
         },
         {
           "label": "I",
           "row": 0,
-          "col": 9,
+          "col": 7,
           "x": 11,
           "y": -0.015
         },
         {
           "label": "O",
           "row": 0,
-          "col": 10,
+          "col": 8,
           "x": 12,
           "y": 0.110
+        },
+        {
+          "label": "P",
+          "row": 0,
+          "col": 9,
+          "x": 13,
+          "y": 0.360
         },
         {
           "label": "Ctrl",
@@ -108,39 +108,39 @@
           "y": 1.110
         },
         {
-          "label": "G",
-          "row": 1,
-          "col": 5,
-          "x": 5,
-          "y": 1.235
-        },
-        {
           "label": "H",
           "row": 1,
-          "col": 7,
+          "col": 5,
           "x": 9,
           "y": 1.235
         },
         {
           "label": "J",
           "row": 1,
-          "col": 8,
+          "col": 6,
           "x": 10,
           "y": 1.110
         },
         {
           "label": "K",
           "row": 1,
-          "col": 9,
+          "col": 7,
           "x": 11,
           "y": 0.985
         },
         {
           "label": "L",
           "row": 1,
-          "col": 10,
+          "col": 8,
           "x": 12,
           "y": 1.110
+        },
+        {
+          "label": ";",
+          "row": 1,
+          "col": 9,
+          "x": 13,
+          "y": 1.360
         },
         {
           "label": "LShift",
@@ -178,39 +178,39 @@
           "y": 2.110
         },
         {
-          "label": "B",
-          "row": 2,
-          "col": 5,
-          "x": 5,
-          "y": 2.235
-        },
-        {
           "label": "N",
           "row": 2,
-          "col": 7,
+          "col": 5,
           "x": 9,
           "y": 2.235
         },
         {
           "label": "M",
           "row": 2,
-          "col": 8,
+          "col": 6,
           "x": 10,
           "y": 2.110
         },
         {
           "label": ",",
           "row": 2,
-          "col": 9,
+          "col": 7,
           "x": 11,
           "y": 1.985
         },
         {
           "label": ".",
           "row": 2,
-          "col": 10,
+          "col": 8,
           "x": 12,
           "y": 2.110
+        },
+        {
+          "label": "/",
+          "row": 2,
+          "col": 9,
+          "x": 13,
+          "y": 2.360
         },
         {
           "label": "GUI",
@@ -241,10 +241,10 @@
           "ry": 7.88,
           "h": 1.5
         },
-        {
+        5   {
           "label": "ENT",
           "row": 3,
-          "col": 7,
+          "col": 8,
           "x": 10.52,
           "y": 2.63,
           "r": -30,
@@ -252,40 +252,40 @@
           "ry": 7.88,
           "h": 1.5
         },
-        {
+        6   {
           "label": "RSE",
           "row": 3,
-          "col": 8,
+          "col": 9,
           "x": 10.52,
           "y": 3.13,
           "r": -15,
           "rx": 11.02,
           "ry": 7.88
         },
-        {
+        7  {
           "label": "ALT",
           "row": 3,
-          "col": 9,
+          "col": 10,
           "x": 10.52,
           "y": 3.13
         }
-      ]
-    }
-  },
-  "sensors": [
-    {
-      "ref": "left_encoder",
-      "name": "encoder_left",
-      "identifier": "encoder_left",
-      "compatible": "alps,ec11",
-      "label": "LEFT_ENCODER"
+8 1
+      ]9  2
     },
-    {
-      "ref": "right_encoder",
-      "name": "encoder_right",
-      "identifier": "encoder_right",
-      "compatible": "alps,ec11",
-      "label": "RIGHT_ENCODER"
-    }
-  ]
-}
+    "sensors": [
+      {
+        "ref": "left_encoder",
+        "name": "encoder_left",
+        "identifier": "encoder_left",
+        "compatible": "alps,ec11",
+        "label": "LEFT_ENCODER"
+      },
+      {
+        "ref": "right_encoder",
+        "name": "encoder_right",
+        "identifier": "encoder_right",
+        "compatible": "alps,ec11",
+        "label": "RIGHT_ENCODER"
+      }
+    ]
+  }
