@@ -47,10 +47,10 @@
 
         mod {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans  &trans  &trans  &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans  &kp LEFT   &kp DOWN      &kp RIGHT  &trans
+&trans          &trans  &trans  &trans  &trans  &trans  &trans     &trans        &trans     &trans
+                        &trans  &trans  &trans  &trans  &trans     &trans
             >;
         };
 
