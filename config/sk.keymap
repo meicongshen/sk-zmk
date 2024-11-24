@@ -32,6 +32,25 @@
             bindings = <&mo 3>;
             key-positions = <11 13>;
         };
+
+        modctrl {
+            bindings = <&mo 4>;
+            key-positions = <10 13>;
+        };
+
+        num {
+            bindings = <&mo 7>;
+            key-positions = <23 22>;
+        };
+    };
+
+    macros {
+        up5: up5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW>;
+            label = "UP5";
+        };
     };
 
     keymap {
