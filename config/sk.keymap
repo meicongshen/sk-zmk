@@ -71,18 +71,21 @@
             bindings = <&kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW>;
             label = "UP5";
         };
+
         down5: down5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW>;
             label = "DOWN5";
         };
+
         up10: up10 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW>;
             label = "UP10";
         };
+
         down10: down10 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -114,8 +117,8 @@
 
         mod {
             bindings = <
-&kp LC(TAB)      &trans  &trans  &trans  &to 0   &trans  &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &trans
-&kp LC(LS(TAB))  &trans  &trans  &trans  &trans  &trans  &kp LEFT   &kp DOWN      &kp RIGHT  &kp LS(RETURN)
+&kp LC(TAB)      &trans  &trans  &trans  &to 0   &up5    &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &trans
+&kp LC(LS(TAB))  &trans  &trans  &trans  &trans  &down5  &kp LEFT   &kp DOWN      &kp RIGHT  &kp LS(RETURN)
 &trans           &trans  &trans  &trans  &trans  &trans  &trans     &trans        &trans     &trans
                          &to 2   &trans  &trans  &trans  &trans     &trans
             >;
@@ -123,10 +126,10 @@
 
         mod_opt {
             bindings = <
-&trans          &trans  &trans  &trans  &to 0   &kp BSPC  &kp HOME      &kp UP    &kp END        &kp LA(BSPC)
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans    &kp LA(LEFT)  &kp DOWN  &kp LA(RIGHT)  &trans
-&trans          &trans  &trans  &trans  &trans  &trans    &trans        &trans    &trans         &trans
-                        &to 3   &trans  &trans  &trans    &trans        &trans
+&trans          &trans  &trans  &trans  &to 0   &up10    &kp HOME      &kp UP    &kp END        &kp LA(BSPC)
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &down10  &kp LA(LEFT)  &kp DOWN  &kp LA(RIGHT)  &trans
+&trans          &trans  &trans  &trans  &trans  &trans   &trans        &trans    &trans         &trans
+                        &to 3   &trans  &trans  &trans   &trans        &trans
             >;
         };
 
@@ -141,9 +144,9 @@
 
         mod_cmd {
             bindings = <
-&trans  &trans  &trans  &trans  &to 0   &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &to 0   &kp G   &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp V   &trans
                 &to 5   &trans  &trans  &trans  &trans  &trans
             >;
         };
