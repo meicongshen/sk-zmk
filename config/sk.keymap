@@ -29,7 +29,7 @@
 
         default_layer {
             bindings = <
-&mt TAB Q                    &mt N5 COMMA  &mt NUMBER_3 PERIOD  &mt NUMBER_1 P  &mt N9 Y  &mt N0 F  &mt NUMBER_2 G  &mt NUMBER_4 C  &mt NUMBER_6 R  &mt BACKSPACE P
+&mt TAB SEMICOLON            &mt N5 COMMA  &mt NUMBER_3 PERIOD  &mt NUMBER_1 P  &mt N9 Y  &mt N0 F  &mt NUMBER_2 G  &mt NUMBER_4 C  &mt NUMBER_6 R  &mt BACKSPACE P
 &mt RET A                    &mt N7 O      &kp E                &kp U           &kp I     &kp D     &kp H           &kp T           &mt N8 N        &kp S
 &mt LEFT_SHIFT SINGLE_QUOTE  &kp Q         &kp J                &kp K           &kp X     &kp B     &kp M           &kp W           &kp V           &kp Z
                                            &none                &kp ESCAPE      &mo 6     &mo 6     &kp SPACE       &none
@@ -83,10 +83,10 @@
 
         num {
             bindings = <
-&kp DOLLAR  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp POUND        &kp LEFT_PARENTHESIS  &kp PLUS      &kp RIGHT_PARENTHESIS  &kp SLASH      &kp QUESTION
-&kp TILDE   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp GRAVE        &kp LEFT_BRACKET      &kp MINUS     &kp RIGHT_BRACKET      &kp AT_SIGN    &kp CARET
-&kp N0      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACE  &kp LEFT_BRACE        &kp ASTERISK  &kp RIGHT_BRACE        &kp BACKSLASH  &kp PIPE
-                          &kp           &kp           &kp              &kp                   &kp           &kp
+&kp LEFT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp POUND        &kp ASTERISK      &kp PLUS      &kp RIGHT_BRACKET  &kp EXCLAMATION  &kp HASH
+&kp TILDE         &kp NUMBER_4    &kp NUMBER_5     &kp NUMBER_6          &kp GRAVE        &kp LEFT_BRACKET  &kp MINUS     &kp RIGHT_BRACKET  &kp AT_SIGN      &kp GRAVE
+&kp N0            &kp NUMBER_1    &kp NUMBER_2     &kp NUMBER_3          &kp RIGHT_BRACE  &kp LEFT_BRACE    &kp ASTERISK  &kp RIGHT_BRACE    &kp BACKSLASH    &kp PIPE
+                                  &kp              &kp                   &kp              &kp               &kp           &kp
             >;
         };
     };
