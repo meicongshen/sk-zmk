@@ -96,10 +96,10 @@
 
         mod {
             bindings = <
-&trans          &trans  &trans  &trans  &to 0   &trans  &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &trans
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans  &kp LEFT   &kp DOWN      &kp RIGHT  &trans
-&trans          &trans  &trans  &trans  &trans  &trans  &trans     &trans        &trans     &trans
-                        &to 2   &trans  &trans  &trans  &trans     &trans
+&kp LC(TAB)      &trans  &trans  &trans  &to 0   &trans  &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &trans
+&kp LC(LS(TAB))  &trans  &trans  &trans  &trans  &trans  &kp LEFT   &kp DOWN      &kp RIGHT  &kp LS(RETURN)
+&trans           &trans  &trans  &trans  &trans  &trans  &trans     &trans        &trans     &trans
+                         &to 2   &trans  &trans  &trans  &trans     &trans
             >;
         };
 
