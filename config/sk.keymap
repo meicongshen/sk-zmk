@@ -83,10 +83,10 @@
 
         num {
             bindings = <
-&kp LEFT_PARENTHESIS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_BRACKET      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_BRACKET      &trans  &trans  &trans  &trans  &trans
-&kp LEFT_BRACE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACE        &trans  &trans  &trans  &trans  &trans
-                                    &trans        &trans        &trans                 &trans  &trans  &trans
+&kp LEFT_PARENTHESIS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp RIGHT_PARENTHESIS  &kp LEFT_PARENTHESIS  &kp  &kp RIGHT_PARENTHESIS  &kp  &kp
+&kp LEFT_BRACKET      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_BRACKET      &kp                   &kp  &kp                    &kp  &kp
+&kp N0                &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACE        &kp                   &kp  &kp                    &kp  &kp
+                                    &kp           &kp           &kp                    &kp                   &kp  &kp
             >;
         };
     };
