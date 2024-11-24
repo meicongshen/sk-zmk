@@ -83,10 +83,10 @@
 
         num {
             bindings = <
-&kp LEFT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp EQUAL        &kp ASTERISK  &kp PLUS     &kp RIGHT_BRACKET  &kp EXCLAMATION  &kp HASH
-&kp DOLLAR        &kp TILDE       &kp AMPERSAND    &kp NUMBER_6          &kp GRAVE        &kp SLASH     &kp AT_SIGN  &kp BACKSLASH      &kp AT_SIGN      &kp GRAVE
-&kp N0            &kp NUMBER_1    &kp NUMBER_2     &kp NUMBER_3          &kp RIGHT_BRACE  &kp QUESTION  &kp CARET    &kp PIPE           &none            &none
-                                  &none            &none                 &none            &none         &none        &none
+&kp LEFT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp EQUAL        &kp ASTERISK  &kp RIGHT_PARENTHESIS  &kp PLUS       &kp RIGHT_BRACKET  &kp EXCLAMATION
+&kp DOLLAR        &kp TILDE       &kp AMPERSAND    &kp NUMBER_6          &kp GRAVE        &kp SLASH     &kp AT_SIGN            &kp BACKSLASH  &none              &kp HASH
+&kp N0            &kp NUMBER_1    &kp NUMBER_2     &kp NUMBER_3          &kp RIGHT_BRACE  &kp QUESTION  &kp CARET              &kp PIPE       &none              &kp GRAVE
+                                  &none            &none                 &none            &none         &none                  &none
             >;
         };
     };
