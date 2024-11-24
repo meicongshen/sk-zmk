@@ -29,10 +29,10 @@
 
         default_layer {
             bindings = <
-&mt TAB Q         &kp W  &kp E  &kp R       &kp T  &kp Y  &kp U      &kp I      &kp O    &mt BACKSPACE P
-&mt RET A         &kp O  &kp E  &kp U       &kp I  &kp D  &kp H      &kp T      &kp N    &kp S
-&mt LEFT_SHIFT Z  &kp X  &kp C  &kp V       &kp B  &kp N  &kp M      &kp COMMA  &kp DOT  &kp FSLH
-                         &none  &kp ESCAPE  &mo 6  &mo 6  &kp SPACE  &none
+&mt TAB Q                    &mt N5 COMMA  &mt NUMBER_3 PERIOD  &mt NUMBER_1 P  &mt N9 Y  &mt N0 F  &mt NUMBER_2 G  &mt NUMBER_4 C  &mt NUMBER_6 R  &mt BACKSPACE P
+&mt RET A                    &mt N7 O      &kp E                &kp U           &kp I     &kp D     &kp H           &kp T           &mt N8 N        &kp S
+&mt LEFT_SHIFT SINGLE_QUOTE  &kp Q         &kp J                &kp K           &kp X     &kp B     &kp M           &kp W           &kp V           &kp Z
+                                           &none                &kp ESCAPE      &mo 6     &mo 6     &kp SPACE       &none
             >;
         };
 
