@@ -42,6 +42,26 @@
             bindings = <&mo 7>;
             key-positions = <23 22>;
         };
+
+        cmd {
+            bindings = <&sk LEFT_COMMAND>;
+            key-positions = <16 17>;
+        };
+
+        ctrl {
+            bindings = <&sk LEFT_CONTROL>;
+            key-positions = <16 18>;
+        };
+
+        cmd_ctrl {
+            bindings = <&sk LC(LEFT_COMMAND)>;
+            key-positions = <16 19>;
+        };
+
+        modcmd {
+            bindings = <&to 5>;
+            key-positions = <6 7>;
+        };
     };
 
     macros {
