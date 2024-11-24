@@ -62,6 +62,11 @@
             bindings = <&to 5>;
             key-positions = <6 7>;
         };
+
+        spotlight {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <13 16>;
+        };
     };
 
     macros {
