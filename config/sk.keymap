@@ -71,6 +71,24 @@
             bindings = <&kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW>;
             label = "UP5";
         };
+        down5: down5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW>;
+            label = "DOWN5";
+        };
+        up10: up10 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW>;
+            label = "UP10";
+        };
+        down10: down10 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW &kp DOWN_ARROW>;
+            label = "DOWN10";
+        };
     };
 
     keymap {
