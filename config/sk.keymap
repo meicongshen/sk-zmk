@@ -56,7 +56,7 @@
 
         mod_opt {
             bindings = <
-&trans          &trans  &trans  &trans  &trans  &kp BSPC  &kp PG_UP     &kp UP    &kp PG_DN      &kp LA(BSPC)
+&trans          &trans  &trans  &trans  &trans  &kp BSPC  &kp HOME      &kp UP    &kp END        &kp LA(BSPC)
 &kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans    &kp LA(LEFT)  &kp DOWN  &kp LA(RIGHT)  &trans
 &trans          &trans  &trans  &trans  &trans  &trans    &trans        &trans    &trans         &trans
                         &trans  &trans  &trans  &trans    &trans        &trans
