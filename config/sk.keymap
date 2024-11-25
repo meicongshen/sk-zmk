@@ -113,10 +113,10 @@
 
         utils {
             bindings = <
-&out OUT_BLE  &bt BT_CLR  &none  &sys_reset  &bootloader  &bootloader  &sys_reset  &none      &kp O    &mt BACKSPACE P
-&kp A         &kp S       &kp D  &kp F       &kp G        &kp H        &kp J       &kp K      &kp L    &kp SEMI
-&kp Z         &kp X       &kp C  &kp V       &kp B        &kp N        &kp M       &kp COMMA  &kp DOT  &kp FSLH
-                          &kp L  &kp L       &kp L        &kp L        &kp L       &kp L
+&out OUT_BLE  &bt BT_CLR  &none  &sys_reset  &bootloader  &bootloader  &sys_reset  &none      &none    &none
+&none         &none       &none  &none       &none        &none        &none       &none      &none    &none
+&none         &none       &none  &none       &none        &none        &none       &none  &none  &none
+                          &none  &none       &none        &none        &none       &none
             >;
         };
 
