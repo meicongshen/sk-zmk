@@ -34,7 +34,7 @@
         sign3: up5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RA(N) &kp RA(A) &kp RA(E)>;
+            bindings = <&kp RA(S) &kp RA(A) &kp RA(E)>;
             label = "UP5";
         };
 
