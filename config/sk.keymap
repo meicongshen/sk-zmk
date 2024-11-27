@@ -82,10 +82,10 @@
 
         mod {
             bindings = <
-&none        &none  &none  &none  &to 0  &sign3  &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &kp BACKSPACE
-&kp LS(RET)  &none  &none  &none  &none  &down5  &kp LEFT   &kp DOWN      &kp RIGHT  &kp LS(RETURN)
-&none        &none  &none  &none  &none  &none   &none      &none         &none      &sign3
-                    &to 2  &none  &none  &none   &none      &none
+&none        &kp F7  &kp F8  &kp F9  &kp F10  &sign3  &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &kp BACKSPACE
+&kp LS(RET)  &kp F4  &kp F5  &kp F6  &kp F11  &down5  &kp LEFT   &kp DOWN      &kp RIGHT  &kp LS(RETURN)
+&none        &kp F1  &kp F2  &kp F3  &kp F12  &none   &none      &none         &none      &none
+                     &none   &none   &none    &none   &none      &none
             >;
         };
 
@@ -93,17 +93,17 @@
             bindings = <
 &trans          &trans  &trans  &trans  &to 0   &up10    &kp HOME      &kp UP    &kp END        &kp LA(BSPC)
 &kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &down10  &kp LA(LEFT)  &kp DOWN  &kp LA(RIGHT)  &trans
-&trans          &trans  &trans  &trans  &trans  &trans   &trans        &trans    &trans         &trans
-                        &to 3   &trans  &trans  &trans   &trans        &trans
+&trans          &trans  &trans  &trans  &trans  &trans   &trans        &trans    &trans         &sign3
+                        &none   &trans  &trans  &trans   &trans        &trans
             >;
         };
 
-        mod_ctrl {
+        numbers {
             bindings = <
-&trans  &trans          &trans  &trans  &to 0   &trans  &trans        &kp UP    &trans         &kp LC(BSPC)
-&trans  &kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &kp LC(LEFT)  &kp DOWN  &kp LC(RIGHT)  &trans
-&trans  &trans          &trans  &trans  &trans  &trans  &trans        &trans    &trans         &trans
-                        &to 4   &trans  &trans  &trans  &trans        &trans
+&trans  &kp N7  &kp N8  &kp N9  &none     &trans  &kp N7  &kp N8  &kp N9  &kp LC(BSPC)
+&trans  &kp N4  &kp N5  &kp N6  &trans    &trans  &kp N4  &kp N5  &kp N6  &trans
+&kp N0  &kp N1  &kp N2  &kp N3  &kp FSLH  &kp N0  &kp N1  &kp N2  &kp N3  &kp FSLH
+                &none   &none   &trans    &trans  &trans  &trans
             >;
         };
 
