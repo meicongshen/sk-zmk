@@ -23,46 +23,6 @@
             key-positions = <26 27 28 29>;
         };
 
-        mod {
-            bindings = <&mo 2>;
-            key-positions = <12 13>;
-        };
-
-        modopt {
-            bindings = <&mo 3>;
-            key-positions = <11 13>;
-        };
-
-        modctrl {
-            bindings = <&mo 4>;
-            key-positions = <10 13>;
-        };
-
-        num {
-            bindings = <&mo 7>;
-            key-positions = <23 22>;
-        };
-
-        cmd {
-            bindings = <&sk LEFT_COMMAND>;
-            key-positions = <16 17>;
-        };
-
-        ctrl {
-            bindings = <&sk LEFT_CONTROL>;
-            key-positions = <16 18>;
-        };
-
-        cmd_ctrl {
-            bindings = <&sk LC(LEFT_COMMAND)>;
-            key-positions = <16 19>;
-        };
-
-        modcmd {
-            bindings = <&to 5>;
-            key-positions = <6 7>;
-        };
-
         spotlight {
             bindings = <&kp LG(SPACE)>;
             key-positions = <13 16>;
@@ -70,10 +30,10 @@
     };
 
     macros {
-        up5: up5 {
+        sign3: up5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW>;
+            bindings = <&kp RA(N) &kp RA(A) &kp RA(E)>;
             label = "UP5";
         };
 
@@ -104,10 +64,10 @@
 
         default_layer {
             bindings = <
-&kp SEMI        &kp COMMA  &kp PERIOD  &kp P       &kp Y  &kp F  &kp G      &kp C  &kp R  &kp L
-&kp A           &kp O      &kp E       &kp U       &kp I  &kp D  &kp H      &kp T  &kp N  &kp S
-&mt LSHIFT SQT  &kp Q      &kp J       &kp K       &kp X  &kp B  &kp M      &kp W  &kp V  &mt RIGHT_SHIFT Z
-                           &none       &kp ESCAPE  &mo 6  &mo 6  &kp SPACE  &none
+&kp Q  &kp W  &kp E      &kp R                &kp T      &kp Y        &kp U            &kp I      &kp O    &kp P
+&kp A  &kp S  &kp D      &kp F                &kp G      &kp H        &kp J            &kp K      &kp L    &kp SEMI
+&kp Z  &kp X  &kp C      &kp V                &kp B      &kp N        &kp M            &kp COMMA  &kp DOT  &mt LEFT_SHIFT FSLH
+              &kp SPACE  &lt 4 RA(BACKSPACE)  &lt 2 RET  &lt 3 ENTER  &lt 5 BACKSPACE  &kp SPACE
             >;
         };
 
@@ -122,9 +82,9 @@
 
         mod {
             bindings = <
-&none        &none  &none  &none  &to 0  &up5    &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &kp BACKSPACE
+&none        &none  &none  &none  &to 0  &sign3  &kp PG_UP  &kp UP_ARROW  &kp PG_DN  &kp BACKSPACE
 &kp LS(RET)  &none  &none  &none  &none  &down5  &kp LEFT   &kp DOWN      &kp RIGHT  &kp LS(RETURN)
-&none        &none  &none  &none  &none  &none   &none      &none         &none      &none
+&none        &none  &none  &none  &none  &none   &none      &none         &none      &sign3
                     &to 2  &none  &none  &none   &none      &none
             >;
         };
